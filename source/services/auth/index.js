@@ -73,11 +73,13 @@ export const AuthProvider = ({children}) => {
             console.log(error);
           }
         },
-        update: async profileImage => {
+        update: async bookData => {
           try {
-            const data = {profileImage};
+            const data = {bookData};
             const uid = await AsyncStorage.getItem('uid');
-            await db.collection('PersonalDetails').doc(uid).update(data);
+            await database()
+              .ref('/Users/' + uid + '/PersonalDetails/')
+              .update(data);
           } catch (error) {
             console.log(error);
           }
@@ -86,9 +88,8 @@ export const AuthProvider = ({children}) => {
           try {
             const arr = [];
             const uid = await AsyncStorage.getItem('uid');
-            await db
-              .collection('PersonalDetails')
-              .doc(uid)
+            await database()
+              .ref('/Users/' + uid + '/PersonalDetails/')
               .get()
               .then(data => {
                 const profileDetail = data.data();
