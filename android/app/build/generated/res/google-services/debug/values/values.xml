@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">559858700111-goig7p7vq2nlhkhigc64gvlbgsefsvj9.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://bookstore-ccdca-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">559858700111</string>
+    <string name="google_api_key" translatable="false">AIzaSyDhqppFzBejy3TpmDSb2TG_Kntylz3z6us</string>
+    <string name="google_app_id" translatable="false">1:559858700111:android:449f08fb4f42cfe818bf3a</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDhqppFzBejy3TpmDSb2TG_Kntylz3z6us</string>
+    <string name="google_storage_bucket" translatable="false">bookstore-ccdca.appspot.com</string>
+    <string name="project_id" translatable="false">bookstore-ccdca</string>
+</resources>

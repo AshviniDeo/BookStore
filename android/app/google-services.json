@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "559858700111",
+    "firebase_url": "https://bookstore-ccdca-default-rtdb.firebaseio.com",
+    "project_id": "bookstore-ccdca",
+    "storage_bucket": "bookstore-ccdca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:559858700111:android:449f08fb4f42cfe818bf3a",
+        "android_client_info": {
+          "package_name": "com.bookstore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "559858700111-goig7p7vq2nlhkhigc64gvlbgsefsvj9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhqppFzBejy3TpmDSb2TG_Kntylz3z6us"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "559858700111-goig7p7vq2nlhkhigc64gvlbgsefsvj9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

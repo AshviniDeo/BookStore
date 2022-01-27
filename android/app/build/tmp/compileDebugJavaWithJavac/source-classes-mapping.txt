@@ -1,0 +1,14 @@
+com/bookstore/BuildConfig.java
+ com.bookstore.BuildConfig
+com/bookstore/MainActivity.java
+ com.bookstore.MainActivity
+com/bookstore/MainApplication.java
+ com.bookstore.MainApplication
+ com.bookstore.MainApplication$1
+com/bookstore/ReactNativeFlipper.java
+ com.bookstore.ReactNativeFlipper
+ com.bookstore.ReactNativeFlipper$1
+ com.bookstore.ReactNativeFlipper$2
+ com.bookstore.ReactNativeFlipper$2$1
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
